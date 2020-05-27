@@ -8,7 +8,7 @@
     .signin-container {
         padding: 48px;
         border: 1px solid blue;
-        img {
+        > img {
             margin-bottom: 60px;
         }
 
@@ -16,6 +16,12 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
+
+            .bg-image-holder {
+                img {
+                    max-height: 200px;
+                }
+            }
 
             .signin-form {
                 border: 1px solid black;
